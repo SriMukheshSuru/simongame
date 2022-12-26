@@ -1,3 +1,6 @@
+alert("*******************************INSTRUCTIONS********************************* Press Any Key on the keyboard or press start button to start the game.| One of the colour blinks then you need to press the one which got blinked.| if you click the correct one then one more colour will blink then you need to press the previous blinked one and the one blinked now in order.|  If you click correctly the this continues you need to remember the sequence and need to click the buttons in order.| If you click wrong one it will show at which level you lost,..Try to beat your previous highest Happy Playing....... ")
+
+
 var buttonColours=["red","blue","green","yellow"];
 var gamePattern =[];
 var userClickedPattern=[];
