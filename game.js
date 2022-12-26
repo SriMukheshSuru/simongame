@@ -11,10 +11,11 @@ $(document).keypress(function(){
   }
 });
 
-$("h1").click(function(){
+$(".startbutton").click(function(){
   if(!started){
     $("#level-title").text("level"+level);
     nextSequence();
+    $(".startbutton").hide();
     started= true;
   }
 });
@@ -45,6 +46,7 @@ function checkAnswer(currentLevel){
         $("body").removeClass("game-over");
       },200);
       $("#level-title").text("Game Over,You lost at level "+level+ " ,Press Any Key to Restart");
+      $(".startbutton").show();
       startOver();
     }
 }
